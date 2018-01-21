@@ -13,5 +13,5 @@ user-defined display filters.
 1. Point the web server to the 'html' folder in this directory.  
 1. Create users in the SQLite database in this directory.  
 1. Provide pokemon sprites and gym icons in ./html/include/img/
-  1. Provide a icons-sprite.png sprite sheet (sprites should be 40px * 40px)
-  1. Run raid/generate.sh to build raid boss icons
+    1. Provide a icons-sprite.png sprite sheet (sprites should be 40px * 40px)
+    1. Run raid/generate.sh to build raid boss icons
