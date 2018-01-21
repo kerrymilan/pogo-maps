@@ -1,5 +1,5 @@
 var markerBase = "https://maps.google.com/mapfiles/ms/icons/";
-var pokeImage = "https://pogo.kerrymilan.com/include/img/icons-sprite2.png";
+var pokeImage = "https://pogo.kerrymilan.com/include/img/icons-sprite.png";
 var latlngbounds, pinImage, marker, map;
 
 function initMap() {
