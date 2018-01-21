@@ -9,9 +9,9 @@ user-defined display filters.
  * SQLite3
 
 ## Installation
-1) Create a cron job to call ./refresh.sh periodically (every 1-5 minutes).
-2) Point the web server to the 'html' folder in this directory.  
-3) Create users in the SQLite database in this directory.  
-4) Provide pokemon sprites and gym icons in ./html/include/img/
-   a) Provide a icons-sprite.png sprite sheet (sprites should be 40px * 40px)
-   b) Run raid/generate.sh to build raid boss icons
+1. Create a cron job to call ./refresh.sh periodically (every 1-5 minutes).
+1. Point the web server to the 'html' folder in this directory.  
+1. Create users in the SQLite database in this directory.  
+1. Provide pokemon sprites and gym icons in ./html/include/img/
+  1. Provide a icons-sprite.png sprite sheet (sprites should be 40px * 40px)
+  1. Run raid/generate.sh to build raid boss icons
