@@ -12,6 +12,8 @@ ROOT=/opt/pogo-maps/out/
 FILE1=${ROOT}/current
 FILE2=${ROOT}/new
 
+[ -d ${ROOT} ] || mkdir -p ${ROOT}
+
 # This command simulates the initial, uncached request for all pokemon and gyms within the given
 # geofence, in JSON format.  Adjustments to this request and the paths in ./html/watched.php may 
 # be required when interfacing with a different tracker.  
